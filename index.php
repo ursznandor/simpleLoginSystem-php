@@ -2,7 +2,7 @@
 
 <html>
 <head>
-	<meta charset="utf-8">
+	<meta charset="UTF-8">
 	<title>Simple login system in php</title>
 </head>
 <body>
@@ -11,7 +11,7 @@
 		<input type="text" name="lastname" placeholder="Lastname"><br>
 		<input type="text" name="nick" placeholder="Username"><br>
 		<input type="password" name="pswd" placeholder="Password"><br>
-		<button type="submit" name="submit" value="submit">Sign In</button>
+		<button type="submit">Sign In</button>
 	</form>
 </body>
 </html>

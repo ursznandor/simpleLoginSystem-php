@@ -6,11 +6,11 @@
 	<title>Simple login system in php</title>
 </head>
 <body>
-	<form>
-		<input type="text" name="first" placeholder="Firstname">
-		<input type="text" name="last" placeholder="Lastname">
-		<input type="text" name="nick" placeholder="Username">
-		<input type="password" name="pswd" placeholder="Password">
+	<form action="signup.php" method="POST">
+		<input type="text" name="first" placeholder="Firstname"><br>
+		<input type="text" name="last" placeholder="Lastname"><br>
+		<input type="text" name="nick" placeholder="Username"><br>
+		<input type="password" name="pswd" placeholder="Password"><br>
 		<button type="submit" name="submit" value="submit">Sign In</button>
 	</form>
 </body>
